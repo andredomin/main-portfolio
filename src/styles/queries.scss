@@ -1,0 +1,50 @@
+@media (min-width: 992px) {
+    header{
+        padding-bottom: 50vh;
+
+    }
+
+    .solutions{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2{
+            text-align: center;
+            
+        }
+    }
+
+    .stack {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20vh;
+
+    
+    }
+
+    .portfolio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20vh;
+    }
+
+    .portfolio .card{
+        max-width: 30vw;
+        margin-left: 2vw;
+
+    }
+
+    .card__container img{
+        margin-left: 0;
+        object-fit: contain;
+    }
+
+    .contact{
+        align-items: center;
+    }
+
+  }

@@ -1,0 +1,50 @@
+@import './variables.scss';
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    background-color: $secondary-color;
+    height: 35vh;
+    padding-bottom: 10vh;
+
+    h2{
+        color: $primary-color;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    svg{
+        margin-top: 2vh;
+        fill: $primary-color;
+    }
+
+    .codepen svg{
+        width: 50px;
+    }
+
+    .linkedin{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .github{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .codepen{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    a{
+        margin-top: 1em;
+        margin-left: 1em;
+        text-decoration: none;
+        color: $primary-color;
+        align-items: center;
+    }
+}

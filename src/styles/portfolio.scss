@@ -1,0 +1,63 @@
+@import './variables.scss';
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: $primary-color;
+    height: 175vh;
+    h2{
+        padding-top: 10vh;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        margin-top: 8vh;
+        height: 30vh;
+        border: 1px solid black;
+        box-shadow: 5px 5px black;
+        border-radius: 8px;
+        width: 80%;
+        margin-left: 10%;
+
+        .card__container{
+            cursor: pointer;
+            width: 100%;
+            margin-left: 20%;
+            margin-bottom: 2em;
+             a{
+                text-decoration: none;
+             }
+            img{
+                margin-top: 2em;
+                margin-left: -5em;
+                object-fit: contain;
+                filter: grayscale(1);
+                width: 15em;
+                height: 12em;
+            }
+        }
+       .card__title{
+        width: 100%;
+        border-bottom: 1px solid black;
+       }
+    }
+
+    .card:hover{
+        .card__title{
+            background-color: $secondary-color;
+            color: $primary-color;
+        }
+        .card__container img{
+            filter: grayscale(0);
+        }
+    }
+
+    h3{
+        text-align: center;
+    }
+}
