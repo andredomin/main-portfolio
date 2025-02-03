@@ -1,16 +1,9 @@
 import { motion } from 'framer-motion'
-import Starfield from 'react-starfield'
 
 const Presentation = () => {
   return (
     <>
         <header>
-        <Starfield
-                starCount={250}
-                starColor={[255, 255, 255]}
-                speedFactor={0.05}
-                backgroundColor="black"
-            />
             <motion.h1
 
             initial={{
