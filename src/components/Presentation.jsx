@@ -25,10 +25,10 @@ const Presentation = () => {
             />
             <motion.h2
             whileInView={{
-                y: '0vw'
+                y: '0vh'
             }}
             initial={{
-                y: '-25vw'
+                y: '-25vh'
             }}
             viewport={{once: true}}
             transition={{ type: 'spring', stiffness: 20, damping: 20 }}
