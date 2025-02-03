@@ -5,6 +5,12 @@ const Presentation = () => {
   return (
     <>
         <header>
+        <Starfield
+                starCount={1000}
+                starColor={[255, 255, 255]}
+                speedFactor={0.05}
+                backgroundColor="black"
+            />
             <motion.h1
 
             initial={{
@@ -17,12 +23,6 @@ const Presentation = () => {
             >Hola! Soy Andrés, FrontEnd Developer 🚀</motion.h1>
         </header>
         <div className="solutions">
-                <Starfield
-                starCount={1000}
-                starColor={[255, 255, 255]}
-                speedFactor={0.05}
-                backgroundColor="black"
-            />
             <motion.h2
             whileInView={{
                 y: '0vh'

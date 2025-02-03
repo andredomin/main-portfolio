@@ -9,6 +9,7 @@ body{
 }
 
 header{
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +17,7 @@ header{
 }
 
 h1{
+
     margin-top: 5vh;
     text-align: center;
     color: $primary-color;
@@ -36,8 +38,9 @@ h1{
 }
 
 .stack{
+    overflow: hidden;
     background-color: $secondary-color;
-    height: 50vh;
+    height: 55vh;
     h2{
         margin-top: 10vh;
         text-align: center;
