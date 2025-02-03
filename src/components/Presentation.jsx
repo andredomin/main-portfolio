@@ -6,7 +6,7 @@ const Presentation = () => {
     <>
         <header>
         <Starfield
-                starCount={100}
+                starCount={250}
                 starColor={[255, 255, 255]}
                 speedFactor={0.05}
                 backgroundColor="black"
