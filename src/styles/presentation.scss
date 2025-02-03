@@ -4,6 +4,7 @@ body{
     font-family: 'Poppins';
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 header{
@@ -22,6 +23,7 @@ h1{
 }
 
 .solutions{
+    overflow: hidden;
     padding-top: 10vh;
     padding-bottom: 10vh;
     text-align: center;
